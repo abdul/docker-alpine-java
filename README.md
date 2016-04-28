@@ -14,5 +14,5 @@ An Alpine Linux based Docker Image that includes OpenJDK, and Maven.
 - M2=$M2_HOME/bin
 - PATH $PATH:$JAVA_HOME:$JAVA:$M2_HOME:$M2
 
-**Default CMD**
-- CMD ["mvn --version"]
+
+**Credits: Most of commands and configuration were taken from @vyo's repository - https://github.com/vyo/alpine-maven/. Thank you :-)**
